@@ -8,6 +8,10 @@ import CustomButton from "../button/button";
 import CartItem from "../cart-item/cart-item.js";
 import { setToggleCart } from "../../redux/cart/cart.actions";
 const CartDropdown = ({ cartItems, history, dispatch }) => {
+ 
+
+
+
   return (
     <div className="cart-dropdown ">
       <div className="cart-items disable-scrollbars">

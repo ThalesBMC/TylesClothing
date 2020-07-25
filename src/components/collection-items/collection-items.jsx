@@ -10,8 +10,8 @@ import 'aos/dist/aos.css';
 const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
   useLayoutEffect(()=>{
-    AOS.init({duration : 2000}
-  )},[])
+    AOS.init({duration : 2000})
+    },[])
 
   return (
     <div data-aos='flip-right' data-aos-duration="2500" className="collection-item">

@@ -32,11 +32,13 @@ const ShopPage =({ fetchCollectionsStart, match })=>{
         path={`${match.path}/:collectionId`}
         component={CollectionPageContainer}
       />
+    
     </div>
   );
   }
 const mapDispatchToProps = dispatch => ({
   fetchCollectionsStart: () => dispatch(fetchCollectionsStart())
+  
 });
 
 export default connect(

@@ -13,6 +13,8 @@ This is clothing store made with `React` and `Firebase`.
 
 6- Go to the stripe-button component and change the publishable key for your own, so the stripe will know that it's you that is trying to make payment.
 
-7- npm start
+7-You need to put your secret stripe key in the server.js
+
+8- npm start
 
 ### `If you liked, please leave the star!`

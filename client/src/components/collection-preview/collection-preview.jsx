@@ -5,6 +5,7 @@ import CollectionItem from "../collection-items/collection-items";
 import "./collection-preview.scss";
 import { withRouter } from "react-router-dom";
 
+
 const CollectionPreview = ({ title, items,history, match, routeName }) => (
   <div className="collection-preview">
     <h1 className="title" onClick={() => history.push(`${match.path}/${routeName}`)}>{title.toUpperCase()}</h1>
@@ -14,6 +15,8 @@ const CollectionPreview = ({ title, items,history, match, routeName }) => (
         .map((item) => (
           <CollectionItem key={item.id} item={item} />
         ))}
+      
+
     </div>
   </div>
 );

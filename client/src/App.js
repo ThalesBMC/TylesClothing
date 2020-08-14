@@ -11,6 +11,7 @@ import ShopPage from "./pages/shop/shop.jsx";
 import Header from "./components/header/header.jsx";
 import SignInSignUp from "./pages/sign-in-sign-up/sign-in-sign-up.jsx";
 import  {GlobalStyle} from "./globalstyles.js"
+import ContactPage from "./pages/contact/contact.jsx"
 
 
 
@@ -35,6 +36,8 @@ const App =({checkUserSession, currentUser})=>{
               currentUser ? <Redirect to="/" /> : <SignInSignUp />
             }
           />
+          <Route exact path="/contact" component={ContactPage} />
+          
         </Switch>
       </div>
     );

@@ -23,7 +23,7 @@ const CartItem = ({item,clearItem} ) => {
    },[item])
   return(
   <div data-aos='zoom-in' ref={messagesEndRef}  className="cart-item">
-    <img src={imageUrl} alt="item" />
+    <img src={imageUrl} alt="item" className="border" />
     <div className="item-details">
       <span className="name">{name}</span>
       <span  className="price animation">

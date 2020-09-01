@@ -1,14 +1,15 @@
 import React from 'react'
 import {SpinnerOverlay} from "./with-spinner.styles"
-import { ReactComponent as Logo } from './rocket.svg';
+import Logo from "./Blue and Green Logistics Service Provider Logo (1).gif"
 // this is a high order component that receives a component and does something 
 
 const  WithSpinner = WrappedComponent => {
     const Spinner=({isLoading, ...otherProps})=> {
     return isLoading ? (
-    <SpinnerOverlay>
-        <Logo/>
-    </SpinnerOverlay>
+        <SpinnerOverlay>
+            <img src={Logo} alt="loading..." />
+        </SpinnerOverlay>
+ 
        
     ):(
         <WrappedComponent {...otherProps}/> 

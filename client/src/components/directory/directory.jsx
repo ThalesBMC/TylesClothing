@@ -8,7 +8,7 @@ import {selectDirectorySection} from "../../redux/directory/directory.selectors"
 
 const Directory =({sections})=>   
     (
-      <div className="directory-menu">
+      <div className="directory-menu escuro">
         {sections.map(({ id, ...otherSectionProps }) => (
           <MenuItem key={id} {...otherSectionProps} />
         ))}

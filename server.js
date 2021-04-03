@@ -2,13 +2,17 @@ const express = require('express');
 
 const bodyParser = require('body-parser');
 const path = require('path');
-
+const compression= require('compression');
 if (process.env.NODE_ENV !=="production") require('dotenv').config();
 //posso ter acesso a key do .env com esse codigo de cima.
 const stripe= require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 const app= express()
 const port = process.env.PORT || 5000;
+app.use(compression());
+//Precisa do compression para que o memo e o suspense funcionem certo e façam arquivos pequenos
+//porque o heroku n faz isso automaticamente, aula de Gzipping
+// Gzipping and compression
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 

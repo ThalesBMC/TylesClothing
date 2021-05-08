@@ -1,0 +1,31 @@
+.bottom {
+  position: fixed;
+  bottom: 30px;
+  width: 40px;
+  height: 35px;
+  font-size: 20px;
+  color: gray;
+  border: 1px solid #e6e6e6;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .bottom {
+    width: 20px;
+    height: 30px;
+  }
+  .bottom .apagar {
+    display: none;
+  }
+}
+/*# sourceMappingURL=top-button.css.map */

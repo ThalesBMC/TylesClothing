@@ -1,0 +1,37 @@
+.centerIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-top: 6rem;
+}
+
+@media (max-width: 800px) {
+  .centerIcon {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 80px 80px 80px;
+        grid-template-rows: 80px 80px 80px;
+    justify-items: center;
+    row-gap: 2rem;
+    padding-top: 2rem;
+  }
+}
+
+.centerIcon .hoverIcon:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 800px) {
+  .centerIcon .hoverIcon {
+    width: 20vw;
+    height: 20vh;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

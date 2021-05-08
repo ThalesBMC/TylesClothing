@@ -35,6 +35,15 @@
   width: 8%;
 }
 
+@media screen and (max-width: 800px) {
+  .checkout-page .checkout-header .header-block {
+    width: 22%;
+  }
+  .checkout-page .checkout-header .header-block:last-child {
+    width: 12%;
+  }
+}
+
 .checkout-page .total {
   margin-top: 30px;
   margin-left: auto;
@@ -51,5 +60,11 @@
   margin-top: 40px;
   font-size: 24px;
   color: red;
+}
+
+@media screen and (max-width: 800px) {
+  .checkout-page {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=checkout.css.map */

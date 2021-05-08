@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,MAAM,EAAE,SAAS;CAalB;;AAXC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EANrC,AAAA,oBAAoB,CAAC;IAOjB,cAAc,EAAE,MAAM;IACtB,KAAK,EAAE,KAAK;IACZ,WAAW,EAAE,MAAM;IACnB,WAAW,EAAC,IAAI;GAOnB;EAjBD,AAYI,oBAZgB,GAYd,CAAC,AAAA,YAAY,CAAC;IACd,aAAa,EAAE,IAAI;GACpB",
+    "sources": [
+        "sign-in-sign-up.scss"
+    ],
+    "names": [],
+    "file": "sign-in-sign-up.css"
+}

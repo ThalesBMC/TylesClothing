@@ -12,11 +12,14 @@
       -ms-flex-pack: center;
           justify-content: center;
   cursor: pointer;
+  color: crimson;
 }
 
 .cart-icon .shopping-icon {
   width: 29px;
   height: 29px;
+  -webkit-filter: invert(48%) grayscale(100%) brightness(208%);
+          filter: invert(48%) grayscale(100%) brightness(208%);
 }
 
 .cart-icon .item-count {

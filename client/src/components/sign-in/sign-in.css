@@ -9,6 +9,12 @@
           flex-direction: column;
 }
 
+@media screen and (max-width: 800px) {
+  .sign-in {
+    width: 360px;
+  }
+}
+
 .sign-in .title {
   margin: 10px 0;
 }
@@ -20,5 +26,11 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  .sign-in .buttons {
+    width: 365px;
+  }
 }
 /*# sourceMappingURL=sign-in.css.map */

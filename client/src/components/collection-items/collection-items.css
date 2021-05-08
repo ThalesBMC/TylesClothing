@@ -30,6 +30,15 @@
   display: none;
 }
 
+@media (max-width: 800px) {
+  .collection-item .custom-button {
+    display: block;
+    opacity: 0.9;
+    min-width: unset;
+    padding: 0 10px;
+  }
+}
+
 .collection-item:hover .image {
   opacity: 0.8;
 }
@@ -60,5 +69,17 @@
 
 .collection-item .collection-footer .price {
   width: 10%;
+}
+
+@media (max-width: 800px) {
+  .collection-item {
+    width: 40vw;
+  }
+  .collection-item:hover .image {
+    opacity: unset;
+  }
+  .collection-item:hover .custom-button {
+    opacity: unset;
+  }
 }
 /*# sourceMappingURL=collection-items.css.map */

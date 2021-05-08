@@ -11,6 +11,10 @@
   width: 30%;
 }
 
+.cart-item .border {
+  border-radius: 50%;
+}
+
 .cart-item .item-details {
   width: 70%;
   display: -webkit-box;
@@ -31,5 +35,17 @@
 
 .cart-item .item-details .name {
   font-size: 16px;
+}
+
+.cart-item .remove-button {
+  padding-left: 12px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
 }
 /*# sourceMappingURL=cart-item.css.map */

@@ -1,22 +1,16 @@
+import React from "react";
+import "./top-button.scss";
+import logo from "./top-button-image.png";
 
-import React from 'react'
-import "./top-button.scss"
-
-
-
-
-const TopButton=({position})=>{
-
+const TopButton = ({ position }) => {
   const scrollToTop = () => {
-        window.scrollTo(0, 0)
-      }
+    window.scrollTo(0, 0);
+  };
 
-   
-    return(
-      <div className="bottom" onClick={() => scrollToTop()}>  
-        <div> &#129045;</div>
-        <div className="apagar">TOP</div>
-      </div>)
-    }
-export default TopButton
- 
+  return (
+    <div className="bottom" onClick={() => scrollToTop()}>
+      <img src={logo} alt="top button" />
+    </div>
+  );
+};
+export default TopButton;
